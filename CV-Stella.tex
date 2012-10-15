@@ -1,0 +1,109 @@
+%% start of file `template_en.tex'.
+%% Copyright 2007 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Travis}
+\familyname{McBride}
+\title{Curriculum Vitae}               % optional, remove the line if not wanted
+\address{\hspace{-1in}851 S. Morgan (M/C 249)}{Chicago, IL 60607-7045}    % optional, remove the line if not wanted
+\mobile{mobile 312 218 8840}                    % optional, remove the line if not wanted
+\phone{(312) 413-8265}                      % optional, remove the line if not wanted
+\fax{312 996 1491}                          % optional, remove the line if not wanted
+\email{tmcbri3@uic.edu}                      % optional, remove the line if not wanted
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+\photo[64pt]{my_photo_smaller}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+\quote{"No man should escape our universities without knowing how little he knows." -- J. Robert Oppenheimer}                 % optional, remove the line if not wanted
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Education}
+\cventry{2006-Present}{PhD Student in Applied Mathematics}{University of Illinois, Department of Mathematics, Statistics, and Computer Science}{Chicago}{IL}{My interests are PDEs and Mathematical Physics.}  
+\cventry{1995--1997}{Master's Level Computer Science Courses}{DePaul University}{Chicago} {IL}{Coursework for professional development.}  % arguments 3 to 6 are optional
+\cventry{1991-1993}{MS in Pure Mathematics}{University of Illinois}{Chicago}{IL}{Department of Education Fellow January 1992 - July 1993.}  % arguments 3 to 6 are optional
+\cventry{1986-1990}{BA in Pure Mathematics}{DePaul University}{Chicago}{IL}{Graduated with High Honor.}  % arguments 3 to 6 are optional
+
+%\section{Master thesis}
+%\cvline{title}{\emph{Title}}
+%\cvline{supervisors}{Supervisors}
+%\cvline{description}{\small Short thesis abstract}
+
+\section{Experience}
+\subsection{Vocational}
+\cventry{2007--Present}{Teaching Assistant}{University of Illinois}{Chicago}{IL}{Lead discussion sections for large lecture courses.}                % arguments 3 to 6 are optional
+\cventry{2000-2006}{Senior Applications Developer and Analyst}{Trans Union LLC}{Chicago}{IL}{Design, coding, and testing of credit reporting software.}                % arguments 3 to 6 are optional
+\cventry{1997--2000}{Applications Developer}{Information Resources Inc.}{Chicago}{IL}{Design, coding, and testing of market research applications.}                % arguments 3 to 6 are optional
+\cventry{1993-1996}{Statistical Analyst}{Kemper Insurance Companies}{Long Grove}{IL}{Statistical report filing to state agencies and the automation these reports.}                % arguments 3 to 6 are optional
+\cventry{Autumn 1991}{Teaching Assistant}{University of Illinois}{Chicago}{IL}{Lead the discussion sections for a large lecture course.}                % arguments 3 to 6 are optional
+%\subsection{Miscellaneous}
+%\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}% arguments 3 to 6 are optional
+
+\section{Teaching Assistant Experience}
+\cvlistitem{Introduction to Differential Equations, Fall 2007}
+\cvlistitem{Calculus II, Spring 2007}
+\cvlistitem{Calculus I, Summer 2007}
+\cvlistitem{Pre-Calculus, Fall 1991}
+
+\vspace{.4in}\section{Computer skills} 
+\cvcomputer{Languages}{MATLAB, C, C++, Pro*C, Oracle PL/SQL, SQL, Korn Shell, JCL, Perl, Expect} {Packages}{MATLAB, Maple}
+\cvcomputer{Platforms}{UNIX, TSO/ISPF}  {Databases}{Sybase, Oracle, DB2} 
+\cvcomputer{Tools}{Word, Excel} {} {}
+%\cvcomputer{}{} {}{}
+
+\section{Languages}
+\cvlanguage{English}{Fluent}{My native language.}
+\cvlanguage{French}{Intermediate}{Speaking, reading, and writing.}
+%\cvlanguage{language 3}{Skill level}{Comment}
+
+\section{Interests}
+\cvline{Bicycling}{\small My lifelong sport.}
+\cvline{Inline Skating}{\small A fun alternative to running.}
+\cvline{Guitar}{\small I've been playing for 23 years and I'm in a band.}
+\cvline{Photography}{\small Digital photography is my newest hobby.}
+
+\closesection{}                   % needed to renewcommands
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+%\section{Extra 1}
+%\cvlistitem{Item 1}
+%\cvlistitem{Item 2}
+%\cvlistitem[+]{Item 3}            % optional other symbol
+
+%\section{Extra 2}
+%\cvlistdoubleitem[\Neutral]{Item 1}{Item 4}
+%\cvlistdoubleitem[\Neutral]{Item 2}{Item 5}
+%cvlistdoubleitem[\Neutral]{Item 3}{}
+
+% Publications from a BibTeX file
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}       % 'publications' is the name of a BibTeX file
+
+\end{document}
+
+
+%% end of file `template_en.tex'.
